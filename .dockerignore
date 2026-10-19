@@ -1,0 +1,51 @@
+# Version-control and editor metadata
+.git
+.gitignore
+.github
+.idea
+.vscode
+
+# Local dependencies and package caches
+node_modules
+**/node_modules
+.npm-cache
+.pnpm-store
+.yarn
+
+# Generated build, test, and tool output
+dist
+**/dist
+build
+**/build
+coverage
+**/coverage
+.cache
+**/.cache
+.vite
+**/.vite
+*.tsbuildinfo
+**/*.test.*
+**/*.spec.*
+test-results
+playwright-report
+
+# Secrets and machine-local configuration
+.env
+**/.env
+.env.*
+**/.env.*
+*.local
+
+# Runtime data and logs
+.runtime
+uploads
+tmp
+temp
+archives
+*.log
+npm-debug.log*
+
+# Project files not required to build either image
+README.md
+Student_Attendance_Tracker_Final_Project_Plan.pdf
+

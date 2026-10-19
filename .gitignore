@@ -1,0 +1,64 @@
+# Dependencies and package-manager caches
+node_modules/
+.npm-cache/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+
+# Compiled output and framework caches
+dist/
+build/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+vite.config.*.timestamp-*
+
+# Local environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs and diagnostic reports
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Test and tool output
+.eslintcache
+.nyc_output/
+test-results/
+playwright-report/
+
+# Application-generated local data
+uploads/
+tmp/
+temp/
+archives/
+.runtime/
+/Project Report/
+
+# Editor settings and temporary files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
